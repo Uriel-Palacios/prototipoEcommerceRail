@@ -1,0 +1,57 @@
+[
+	{
+		"nombre": "Producto 10",
+		"precio": "12345",
+		"stock": "10",
+		"marca": "Marca 10",
+		"categoria": "Categoria 10",
+		"detalles": "Detalles 10",
+		"foto": "Foto 10",
+		"envio": "true",
+		"id": 1
+	},
+	{
+		"nombre": "Producto 10",
+		"precio": "12345",
+		"stock": "10",
+		"marca": "Marca 10",
+		"categoria": "Categoria 10",
+		"detalles": "Detalles 10",
+		"foto": "Foto 10",
+		"envio": "true",
+		"id": 2
+	},
+	{
+		"nombre": "Producto 10",
+		"precio": "12345",
+		"stock": "10",
+		"marca": "Marca 10",
+		"categoria": "Categoria 10",
+		"detalles": "Detalles 10",
+		"foto": "Foto 10",
+		"envio": "true",
+		"id": 3
+	},
+	{
+		"nombre": "Producto 10",
+		"precio": "12345",
+		"stock": "10",
+		"marca": "Marca 10",
+		"categoria": "Categoria 10",
+		"detalles": "Detalles 10",
+		"foto": "Foto 10",
+		"envio": "true",
+		"id": 4
+	},
+	{
+		"nombre": "Producto 10",
+		"precio": "12345",
+		"stock": "10",
+		"marca": "Marca 10",
+		"categoria": "Categoria 10",
+		"detalles": "Detalles 10",
+		"foto": "Foto 10",
+		"envio": "true",
+		"id": 5
+	}
+]

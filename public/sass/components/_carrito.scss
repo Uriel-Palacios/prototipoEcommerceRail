@@ -1,0 +1,151 @@
+.section-carrito {
+    display: none;
+    position: fixed;
+    background-color: #f1f2f3;
+    z-index: 1;
+    top: 100px;
+    left: 150px;
+    right: 150px;
+    bottom: 60px;
+    box-shadow: .3em .3em 2em .3em rgba(0,0,0,1);
+    color: black;
+    opacity: 0.9;
+    overflow: auto;
+    padding-bottom: 5%;
+
+    &--visible {
+        display: block;
+
+        &--vacio{
+            // top: 200px;
+            // left: 500px;
+            // right: 500px;
+            // bottom: 140px;
+        }
+
+    }
+}
+
+
+
+#cerrar-carrito{
+    width: 5%;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+    position: relative;
+
+}
+
+table, th, td {
+    border: 2.5px solid black;
+    border-collapse: collapse;
+    align-self: center;
+    text-align: center;     
+
+}
+
+.colPrimera{
+    background-color: rgba($color: #000000, $alpha: 0.75);
+
+    & th {
+        padding-top: 0.7%;
+        padding-bottom: 0.7%; 
+        
+        &.th-invi{
+            display: none;
+            outline: none;
+            border: none;
+            overflow: hidden;
+        }
+    }
+}
+
+table {
+    width: 90%;
+    margin-top: 2%;
+    align-self: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.carrito-primera-col{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.btn__enviarCarrito{
+    float: right;
+    margin-top: 2%;
+    margin-right: 7%;
+    width: 7%;
+    height: 5%;
+    border: #000000 3px solid;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50px;
+    font-size: 110%;
+    font-weight: 700;
+    
+}
+
+.carrito-animado{
+    width: 25vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+
+
+}
+
+.carrito-vacio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+
+}
+
+
+
+.h2-carrito {
+    text-align: center;
+}
+
+.h2-carrito-vacío {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.carrito-eliminar {
+    background-color: white;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.carrito-enviando{
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carrito-h2-enviando{
+    text-align: center;
+}
+
+.carrito-enviado{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    margin-top: 10%;
+}
+
+.carrito-h2-enviado{
+    text-align: center;
+}
+
